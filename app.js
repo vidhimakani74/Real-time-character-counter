@@ -6,7 +6,7 @@ updateCounter()
 function updateCounter() {
     //total character
     totalCounterE1.innerText = textareaE1.value.length;
-    // remainig char
+    // remainig character
     remainingCounerE1.innerText = textareaE1.getAttribute("maxLength") - textareaE1.value.length;
 }
 
